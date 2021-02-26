@@ -4,8 +4,9 @@ body
     color:white;
     padding:20px;
 }
-h1{
+h1,h2{
     background-color: red;
     border:2px solid black;
-    margin:auto;
+    margin: 5px ;
+    text-align:center;
 }
