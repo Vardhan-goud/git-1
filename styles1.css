@@ -1,12 +1,170 @@
 body
 {
-    background-color: black;
+
+    margin:0;
+    font-family:"Segoe UI";
+}
+.title
+{
+  width:100%;
+  height:120px;
+  background-color:#3398CC;
+  color:white;
+  box-sizing:border-box;
+  font-size:50px;
+  font-family:"Segoe UI";
+  font-weight:10;
+  margin:0;
+  padding:20px 0 0 25px;
+}
+.navbar
+{
+    height:40px;
+    width:100%;
+    background-color:#333333;
+    padding:0;
+    margin:0;
+}
+.navbar li
+{
+    display:inline-flex;
+    width:80px;
+    box-sizing:border-box;
+    padding:9px 16px 10px 16px;
+    font-weight:700; 
+     margin:0 0 0 7px;
+    cursor: pointer;
+    
+}
+.navbar li a
+{
     color:white;
-    padding:20px;
+    text-decoration: none;
 }
-h1,h2{
-    background-color: red;
-    border:2px solid black;
-    margin: 5px ;
-    text-align:center;
+
+li.nav-active
+{
+    
+    background-color:#FF9900;
+    border-left:2px solid white;  
+    
 }
+li.nav-active a
+{
+    
+    color:black; 
+
+}
+
+li.blog
+{
+    display:inline-flex;
+    float:right;
+    width:auto;
+    margin:0 18px 0 0;
+    padding:8px 0 0 0;
+}
+
+.Home_component
+{
+   display:flex;
+   flex-wrap:wrap;
+   margin:5px 0 0 0;  
+}
+.contact_heading
+{
+    font-size:16px;
+    margin:18px 0 15px 20px;
+}
+.contacts-block
+{
+    border:1px solid rgb(221,221,211);
+    padding:0;  
+    width:318px;
+    margin:17px 0px 0px 20px;
+}
+.each-contact
+{
+    display:inline-flex;
+    height:100px;
+    width:100%;
+    box-sizing:border-box;
+}
+.contact_details
+{
+    padding:9 0 0 22px;
+    list-style: none;
+}
+.each-contact  ul li
+{
+    padding:3px 0px 0px 0px;
+    font-size:16px;
+    color:rgba(0,0,0,0.8);
+}
+#contact_name
+{
+    font-size:19px;  
+}
+.each-contact:hover
+{
+    cursor: pointer;
+}
+.active-contact
+{
+    border-top:1px solid rgb(221,221,211);
+    border-bottom:1px solid rgb(221,221,211);
+    background-color:rgb(207,231,243);
+}
+.display_contact
+{
+    box-sizing: border-box;
+    margin:18px 0 0 73px;
+    width:394px;
+}
+.display_contact h3
+{
+    font-size:24px;
+    margin-bottom:8px;
+    font-weight:550;
+}
+.display_contact ul
+{
+    margin:0;
+    padding:0;
+}
+.display_contact ul li
+{
+    list-style-type: none;
+    margin:10px 0 0 0;
+}
+
+#pin-code,#state
+{
+    display:block;
+    margin:5px 0 0 64px;
+}
+.actions
+{
+    margin:40px 0 0 109px;
+}
+#edit_action img
+{
+    position:relative;
+    top:3px;
+    padding:0 6px 0 0;
+}
+#delete_action img
+{
+    position:relative;
+    top:10px;
+    padding:0 6px 0 0;
+}
+#edit_action,#delete_action
+{
+    text-decoration:none;
+    color:black;
+    font-size:16px;
+}
+
+
+
