@@ -1,75 +1,38 @@
 <html>
     <head>
-
-        <title>Fosterate</title>
+        <meta charset="UTF-8">
+        <title>bootstrap</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="styles1.css">
     </head>
     <body>
-        <h1 class="title">Fosterate</h1>
-
-        <ul class="navbar">
-
-            <li class="nav-active"><a href="">HOME</a></li>
-            <li><a href="">+ADD</a></li>
-            <li class="blog"><a href=""><img src="blog-icon.png"  alt="" ></a></li>
-
-        </ul>
-        
-        <div class="Home_component">
-
-            <div>
-                <h3 class="contact_heading">CONTACTS</h3>
-
-                <ul class="contacts-block">
-
-                    <li class="each-contact">
-                        <ul class="contact_details">
-                            <li id="contact_name">Harsha Vardhan Pendyala</li> 
-                            <li id="phone-number"> 7777888855</li>
-                             <li id="mail-id">harsha@fosterate.com</li>
-                        </ul>
-                       
-                    </li>
-
-
-                    <li class="each-contact active-contact">
-                        <ul class="contact_details">
-                            <li id="contact_name">Network Duke</li> 
-                             <li id="phone-number"> 7777888855</li>
-                             <li id="mail-id">duke@fosterate.com</li>
-                        </ul>
-                    </li>
-
-
-                     <li class="each-contact">
-                         <ul class="contact_details">
-                            <li id="contact_name">Arshaque Mohammed</li> 
-                            <li id="phone-number"> 7777888855</li>
-                            <li id="mail-id">arshaque@fosterate.com</li>
-                         </ul> 
-                     </li>
-                
-                </ul>
+        <div class="container">
+            <div class="row">
+                <!-- col-3,4,3,2 -->
+                <div class="col-sm-3 pl-0"><div class="bg-warning c1">col-sm-3</div></div>
+                <div class="col-sm-4 pl-0"><div class="bg-danger c1">col-sm-4</div></div>
+                <div class="col-sm-3 pl-0"><div class="bg-primary c1">col-sm-3</div></div>
+                <div class="col-sm-2 pl-0"><div class="bg-secondary c1">col-sm-2</div></div>
             </div>
-
-           <div class="display_contact">
-               <h3>Network Duke</h3>
-               <ul>
-                   <li>Email:  duke@fosterate.com</li>
-                   <li>Mobile: 7777888855</li>
-                   <li>Landline:</li>
-                   <li>Website:</li>
-                   <li>Address: <span id="district">hyderabad</span><span id="state">Telangana</span><span id="pin-code">500061</span></li>
-               </ul>
-           </div>
-
-
-           <div class="actions">
-            <a href="#" id="edit_action"><img src="Edit-icon.png" alt="" height="17px"><span id="edit">EDIT</span></a> 
-             <a href="#" id="delete_action">
-                 <img src="delete2.png" alt=""><span id="delete">DELETE</span>
-             </a>
-         
-         </div>
-
+            <div class="row mt-3">
+                <!-- col-7,4,1 -->
+                <div class="col-sm-7 pl-0 c2"><div class="bg-primary c1">col-sm-7</div></div>
+                <div class="col-sm-4 pl-0"><div class="c1" style="background-color:aquamarine;">col-sm-4</div></div>
+                <div class="col-sm-1 pl-0"><div class="bg-dark c1">col-sm-1</div></div>
+            </div>
+            <div class="row mt-3">
+                <!-- col-2,5,5 -->
+                <div class="col-sm-2 pl-0 c2"><div class="bg-danger c1">col-sm-2</div></div>
+                <div class="col-sm-5 pl-0"><div class="c1 bg-warning" style="background-color:aquamarine;">col-sm-5</div></div>
+                <div class="col-sm-5 pl-0"><div class="c1" style="background-color: cadetblue;">col-sm-5</div></div>
+            </div>
         </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
